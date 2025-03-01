@@ -2,8 +2,8 @@
 
 # Links
 
-[Online DBC Viewer/Editor](https://www.csselectronics.com/pages/dbc-editor-can-bus-database)
-[SAE J1939 PGN Database](https://github.com/amoux/candump-database/tree/master)
+* [Online DBC Viewer/Editor](https://www.csselectronics.com/pages/dbc-editor-can-bus-database)
+* [SAE J1939 PGN Database](https://github.com/amoux/candump-database/tree/master)
 
 Create python venv
 ```
