@@ -1,0 +1,274 @@
+Message: AuxControls, ID: 0x18ff35e4, DLC: 8
+  Signal: btn_LHJoystick_LH, Start Bit: 20, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_LHJoystick_RH, Start Bit: 22, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_LHJoystick_Dw, Start Bit: 24, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_LHJoystick_Up, Start Bit: 25, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_RHJoystick_Up, Start Bit: 26, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_RHJoystick_Dw, Start Bit: 27, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_RHJoystick_Trigger, Start Bit: 28, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: sld01, Start Bit: 32, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: btn_RHJoystick_Speed, Start Bit: 59, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+Message: LegacyMessaggesPrior6, ID: 0x18ffffe4, DLC: 8
+  Signal: CANLegacyFunctionsSelector, Start Bit: 0, Length: 16, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 65535, Unit: None
+  Signal: btn_07, Start Bit: 16, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: btn_05, Start Bit: 16, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: btn_03, Start Bit: 16, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: btn_01, Start Bit: 16, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: btn_08, Start Bit: 17, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: btn_06, Start Bit: 17, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: btn_04, Start Bit: 17, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: btn_02, Start Bit: 17, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+Message: AuxControlsTX, ID: 0x18ff53e4, DLC: 8
+Message: TestMsg_0000, ID: 0x14ffffb0, DLC: 8
+  Signal: DWORD, Start Bit: 0, Length: 32, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DWORD1, Start Bit: 32, Length: 32, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+Message: KeypadPress1, ID: 0x18ff0237, DLC: 6
+  Signal: EngineStart, Start Bit: 0, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Stop, Start Bit: 2, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: key3, Start Bit: 4, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: key4, Start Bit: 6, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: WorkLight, Start Bit: 8, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: key6, Start Bit: 10, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Beacon, Start Bit: 12, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: key8, Start Bit: 14, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: key9, Start Bit: 16, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: key10, Start Bit: 18, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: key11, Start Bit: 20, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: key12, Start Bit: 22, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: HandThrottle, Start Bit: 32, Length: 10, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 1023, Unit: None
+Message: BCT_GAU, ID: 0x18ff2fb0, DLC: 7
+  Signal: engineCoolantTemp, Start Bit: 0, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+  Signal: fuelLevelGauge, Start Bit: 8, Length: 8, Endianess: Little Endian, Factor: 0.4, Offset: 0, Min: 0, Max: 102, Unit: None
+  Signal: hydraulicChargePressure, Start Bit: 16, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+  Signal: Gauge4, Start Bit: 24, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+  Signal: engineOilPressure, Start Bit: 32, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+  Signal: hydraulicOilTemperature, Start Bit: 40, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+  Signal: Unused, Start Bit: 48, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+Message: SAE_AUXIO3, ID: 0x18a637b0, DLC: 8
+  Signal: Button11_Left, Start Bit: 0, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button11_Center, Start Bit: 2, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button11_Right, Start Bit: 4, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button12_Left, Start Bit: 6, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button12_Center, Start Bit: 8, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button12_Right, Start Bit: 10, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button13_Left, Start Bit: 12, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button13_Center, Start Bit: 14, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button13_Right, Start Bit: 16, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button14_Left, Start Bit: 18, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button14_Center, Start Bit: 20, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button14_Right, Start Bit: 22, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button15_Left, Start Bit: 24, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button15_Center, Start Bit: 26, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button15_Right, Start Bit: 28, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button16_Left, Start Bit: 30, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button16_Center, Start Bit: 32, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button16_Right, Start Bit: 34, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button17_Left, Start Bit: 36, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button17_Center, Start Bit: 38, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button17_Right, Start Bit: 40, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button18_Left, Start Bit: 42, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button18_Center, Start Bit: 44, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button18_Right, Start Bit: 46, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button19_Left, Start Bit: 48, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button19_Center, Start Bit: 50, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button19_Right, Start Bit: 52, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button20_Left, Start Bit: 54, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button20_Center, Start Bit: 56, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button20_Right, Start Bit: 58, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Unused, Start Bit: 60, Length: 4, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 15, Unit: None
+Message: BCT_IND, ID: 0x18ff2db0, DLC: 6
+  Signal: GeneralWarning, Start Bit: 0, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: HydraulicWarning, Start Bit: 4, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: EngineWarning, Start Bit: 6, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: EngineCoolantTempSw, Start Bit: 8, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: ParkBrake, Start Bit: 10, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Battery, Start Bit: 12, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: SeatBelt, Start Bit: 14, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DiffLock, Start Bit: 16, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Fuel, Start Bit: 18, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: BoomFloat, Start Bit: 24, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: RideControle, Start Bit: 26, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DEFGreen4, Start Bit: 28, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DEFGreen3, Start Bit: 30, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DEFGreen2, Start Bit: 32, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DEFGreen1, Start Bit: 34, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DEFYellow, Start Bit: 36, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DEFRed1, Start Bit: 40, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: HEST, Start Bit: 42, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DPFActive, Start Bit: 44, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DPFInhibit, Start Bit: 46, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+Message: SAE_DD, ID: 0x18fefcb0, DLC: 8
+  Signal: WasherFluidLevel, Start Bit: 0, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+  Signal: FuelLevel1, Start Bit: 8, Length: 8, Endianess: Little Endian, Factor: 0.4, Offset: 0, Min: 0, Max: 100, Unit: None
+  Signal: EngineFuelFilterDifferential, Start Bit: 16, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+  Signal: EngineOilFileterDifferential, Start Bit: 24, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+  Signal: CargoAmbientTemperature, Start Bit: 32, Length: 16, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 65535, Unit: None
+  Signal: FuelLevel2, Start Bit: 48, Length: 8, Endianess: Little Endian, Factor: 0.4, Offset: 0, Min: 0, Max: 100, Unit: None
+  Signal: Unused, Start Bit: 56, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+Message: EBC1, ID: 0x18f001b0, DLC: 8
+  Signal: ASREngCtrlActive, Start Bit: 0, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: ASRBrakeCtrlActive, Start Bit: 2, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: AntiLockBrakingActive, Start Bit: 4, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: EBSBrakeSwitch, Start Bit: 6, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: BrakePedalPos, Start Bit: 8, Length: 8, Endianess: Little Endian, Factor: 0.4, Offset: 0, Min: 0, Max: 100, Unit: None
+  Signal: ABSOffroadSwitch, Start Bit: 16, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: ASROffroadSwitch, Start Bit: 18, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: ASRHillHolderSwitch, Start Bit: 20, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: TractionCtrlOverrideSwitch, Start Bit: 22, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: AccelInterlockSwitch, Start Bit: 24, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: EngDerateSwitch, Start Bit: 26, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: EngAuxShutdownSwitch, Start Bit: 28, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: RemoteAccelEnableSwitch, Start Bit: 30, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: EngRetarderSelection, Start Bit: 32, Length: 8, Endianess: Little Endian, Factor: 0.4, Offset: 0, Min: 0, Max: 100, Unit: None
+  Signal: ABSFullyOperational, Start Bit: 40, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: EBSRedWarningSignal, Start Bit: 42, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: ABS_EBSAmberWarningSignal, Start Bit: 44, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: ATC_ASRInformationSignal, Start Bit: 46, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: SrcAddrssOfCntrllngDvcFrBrkeCtrl, Start Bit: 48, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: None
+  Signal: HaltBrakeSwitch, Start Bit: 58, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: TrailerABSStatus, Start Bit: 60, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: TrctrMntdTrailerABSWarningSignal, Start Bit: 62, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+Message: LegacyMessaggesPrior5, ID: 0x14ffffe4, DLC: 8
+  Signal: CANLegacyFunctionsSelector, Start Bit: 0, Length: 16, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 65535, Unit: None
+  Signal: btn_LHJoystick_LH, Start Bit: 20, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_LHJoystick_RH, Start Bit: 22, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_LHJoystick_Dw, Start Bit: 24, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_LHJoystick_Up, Start Bit: 25, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_RHJoystick_Up, Start Bit: 26, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_RHJoystick_Dw, Start Bit: 27, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: btn_RHJoystick_Trigger, Start Bit: 28, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: sld01, Start Bit: 32, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: btn_RHJoystick_Speed, Start Bit: 59, Length: 1, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+Message: SAE_AUXIO2, ID: 0x18a737b0, DLC: 8
+  Signal: Button1_Left, Start Bit: 0, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button1_Center, Start Bit: 2, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button1_Right, Start Bit: 4, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button2_Left, Start Bit: 6, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button2_Center, Start Bit: 8, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button2_Right, Start Bit: 10, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button3_Left, Start Bit: 12, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button3_Center, Start Bit: 14, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button3_Right, Start Bit: 16, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button4_Left, Start Bit: 18, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button4_Center, Start Bit: 20, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button4_Right, Start Bit: 22, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: workLight_Front, Start Bit: 24, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: key5_Center, Start Bit: 26, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: workLight_Rear, Start Bit: 28, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button6_Left, Start Bit: 30, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button6_Center, Start Bit: 32, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button6_Right, Start Bit: 34, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button7_Left, Start Bit: 36, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: beacon, Start Bit: 38, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button7_Right, Start Bit: 40, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button8_Left, Start Bit: 42, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button8_Center, Start Bit: 44, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button8_Right, Start Bit: 46, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button9_Left, Start Bit: 48, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button9_Center, Start Bit: 50, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button9_Right, Start Bit: 52, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button10_Left, Start Bit: 54, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button10_Center, Start Bit: 56, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Button10_Right, Start Bit: 58, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Unused, Start Bit: 60, Length: 4, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 15, Unit: None
+Message: SMVCU, ID: 0x18ffa4b0, DLC: 8
+  Signal: APP1Ext, Start Bit: 0, Length: 8, Endianess: Little Endian, Factor: 0.004, Offset: 0, Min: 0, Max: 1.02, Unit: None
+  Signal: BrkSwt, Start Bit: 12, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+  Signal: PTO, Start Bit: 16, Length: 5, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 31, Unit: None
+  Signal: CrCtlOff, Start Bit: 24, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+  Signal: CrCtlDecl, Start Bit: 26, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+  Signal: CrCtlRes, Start Bit: 28, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+  Signal: CrCtlAccl, Start Bit: 30, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+  Signal: VehSpd, Start Bit: 32, Length: 16, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 251, Unit: kmph
+  Signal: EngStrtrMtrRlyCtlRq, Start Bit: 48, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+  Signal: ParkBrkSwt, Start Bit: 50, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+  Signal: Counter, Start Bit: 56, Length: 4, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 15, Unit: None
+  Signal: CheckSum, Start Bit: 60, Length: 4, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 15, Unit: None
+Message: CCVS, ID: 0x18fef19, DLC: 8
+  Signal: TwoSpdAxlSwt, Start Bit: 0, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: ParkingBrakeSwt, Start Bit: 2, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: CCPauseSwt, Start Bit: 4, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: PBrkRelInhReq, Start Bit: 6, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: vWheelBasedVehSpd, Start Bit: 8, Length: 16, Endianess: Little Endian, Factor: 0.00390625, Offset: 0, Min: 0, Max: 251, Unit: None
+  Signal: CruiseControlActive, Start Bit: 24, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: CCEnblSwt, Start Bit: 26, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: BrkSwt, Start Bit: 28, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: ClutchSwt, Start Bit: 30, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: CCSetSwt, Start Bit: 32, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: CoastDecSwt, Start Bit: 34, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: ResumeSwt, Start Bit: 36, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: AccSwt, Start Bit: 38, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: CruiseControlSetSpeed, Start Bit: 40, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 251, Unit: km/h
+  Signal: PTO_State, Start Bit: 48, Length: 5, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: CruiseControlStates, Start Bit: 53, Length: 3, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: EngIdlIncSwt, Start Bit: 56, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: EngIdlDecSwt, Start Bit: 58, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: EngTstModeSwt, Start Bit: 60, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: ShtDwnOvrdSwt, Start Bit: 62, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+Message: Shutdown, ID: 0x18fee40, DLC: 5
+  Signal: WaittoStartLmp, Start Bit: 24, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: EngShutdown, Start Bit: 32, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+Message: ET1, ID: 0x18feee0, DLC: 4
+  Signal: EngineCoolantTemp, Start Bit: 0, Length: 8, Endianess: Little Endian, Factor: 1, Offset: -40, Min: -40, Max: 210, Unit: deg C
+  Signal: EngineFuelTemp, Start Bit: 8, Length: 8, Endianess: Little Endian, Factor: 1, Offset: -40, Min: -40, Max: 210, Unit: deg C
+  Signal: EngineOilTemp, Start Bit: 16, Length: 16, Endianess: Little Endian, Factor: 0.03125, Offset: -273, Min: -273, Max: 1735, Unit: None
+Message: EFLP1, ID: 0x18feef0, DLC: 8
+  Signal: EngineFuelDeliveryPressure, Start Bit: 0, Length: 8, Endianess: Little Endian, Factor: 4, Offset: 0, Min: 0, Max: 1000, Unit: None
+  Signal: EngineOilLevel, Start Bit: 16, Length: 8, Endianess: Little Endian, Factor: 0.4, Offset: 0, Min: 0, Max: 100, Unit: None
+  Signal: EngineOilPressure, Start Bit: 24, Length: 8, Endianess: Little Endian, Factor: 4, Offset: 0, Min: 0, Max: 1000, Unit: None
+  Signal: EngineCoolantLevel, Start Bit: 56, Length: 8, Endianess: Little Endian, Factor: 0.4, Offset: 0, Min: 0, Max: 100, Unit: None
+Message: SAE_AAI, ID: 0x1cfe8cfc, DLC: 7
+  Signal: AuxTemp1, Start Bit: 0, Length: 8, Endianess: Little Endian, Factor: 1, Offset: -40, Min: -40, Max: 210, Unit: deg C
+  Signal: HydraulicOilTemperature, Start Bit: 8, Length: 8, Endianess: Little Endian, Factor: 1, Offset: -40, Min: -40, Max: 210, Unit: deg C
+  Signal: AuxPress1, Start Bit: 16, Length: 8, Endianess: Little Endian, Factor: 16, Offset: 0, Min: 0, Max: 4000, Unit: None
+  Signal: AuxPress2, Start Bit: 24, Length: 8, Endianess: Little Endian, Factor: 16, Offset: 0, Min: 0, Max: 4000, Unit: None
+  Signal: AuxilaryLevel, Start Bit: 32, Length: 16, Endianess: Little Endian, Factor: 0.1, Offset: 0, Min: 0, Max: 6425.5, Unit: mm
+  Signal: RelativeHumidity, Start Bit: 48, Length: 8, Endianess: Little Endian, Factor: 0.4, Offset: 0, Min: 0, Max: 100, Unit: None
+Message: BCT_IND2, ID: 0x18ff31fc, DLC: 4
+  Signal: HighBeam, Start Bit: 0, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: LowBeam, Start Bit: 2, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: PositionLi, Start Bit: 4, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Flasher, Start Bit: 6, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DriveMode0, Start Bit: 8, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DriveMode1, Start Bit: 10, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DriveMode2, Start Bit: 12, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: DriveMode3, Start Bit: 14, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Forward, Start Bit: 16, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Neutral, Start Bit: 18, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: Reverse, Start Bit: 20, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: PreheatIndic, Start Bit: 22, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: -
+  Signal: InstrumentIcon37, Start Bit: 24, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+  Signal: InstrumentIcon38, Start Bit: 26, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+  Signal: InstrumentIcon39, Start Bit: 28, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+  Signal: InstrumentIcon40, Start Bit: 30, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: None
+Message: CAN03, ID: 0x18ffff1, DLC: 3
+  Signal: EngineCranking, Start Bit: 8, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: EngineStop, Start Bit: 16, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+Message: EJM2, ID: 0x18fdd92, DLC: 8
+  Signal: LEFT_ROCKER_NEUTRAL, Start Bit: 0, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: LEFT_ROCKER_BACK, Start Bit: 2, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: LEFT_ROCKER_FORWARD, Start Bit: 4, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: LEFT_ROCKER_POSITION_VALUE, Start Bit: 6, Length: 10, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 102, Unit: %
+  Signal: RIGHT_ROCKER_NEUTRAL, Start Bit: 16, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: RIGHT_ROCKER_BACK, Start Bit: 18, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: RIGHT_ROCKER_FORWARD, Start Bit: 20, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: None, Max: None, Unit: None
+  Signal: RIGHT_ROCKER_POSITION_VALUE, Start Bit: 22, Length: 20, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 102, Unit: %
+  Signal: Counter, Start Bit: 56, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: -
+Message: BJM2, ID: 0x18ff682, DLC: 8
+  Signal: X_Axis_Neutral_Position_Status, Start Bit: 0, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: X_Axis_Lever_Left_Negative_Posi, Start Bit: 2, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: X_Axis_Lever_Right_Postive_Posi, Start Bit: 4, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: X_Axis_Position, Start Bit: 6, Length: 10, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 1023, Unit: -
+  Signal: Y_Axis_Neutral_Position_Status, Start Bit: 16, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: Y_Axis_Lever_Left_Negative_Posi, Start Bit: 18, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: Y_Axis_Lever_Right_Postive_Posi, Start Bit: 20, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: Y_Axis_Position, Start Bit: 22, Length: 10, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 1023, Unit: -
+  Signal: Not_Defined, Start Bit: 32, Length: 4, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 15, Unit: -
+  Signal: Button4, Start Bit: 40, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: Button3_Bucket, Start Bit: 42, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: Button2_Plus, Start Bit: 44, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: Button1_Minus, Start Bit: 46, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: Button7_FNR_R, Start Bit: 50, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: Button6_FNR_N, Start Bit: 52, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: Button5_FNR_F, Start Bit: 54, Length: 2, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 3, Unit: -
+  Signal: Counter, Start Bit: 56, Length: 8, Endianess: Little Endian, Factor: 1, Offset: 0, Min: 0, Max: 255, Unit: -
