@@ -1,0 +1,220 @@
+Decoded J1939 Arbitration ID: 0x18FF35E4
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFF (255)
+  PDU Specific:    0x35 (53)
+  PGN:             0xFF35 (65333) - Proprietary B 
+  Destination:     Broadcast
+  Source Address:  0xE4 (228)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18FFFFE4
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFF (255)
+  PDU Specific:    0xFF (255)
+  PGN:             0xFFFF (65535) Proprietary B (last entry)
+  Destination:     Broadcast
+  Source Address:  0xE4 (228)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18FF53E4
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFF (255)
+  PDU Specific:    0x53 (83)
+  PGN:             0xFF53 (65363) Proprietary B 
+  Destination:     Broadcast
+  Source Address:  0xE4 (228)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x14FFFFB0
+  Priority:        5
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFF (255)
+  PDU Specific:    0xFF (255)
+  PGN:             0xFFFF (65535) Proprietary B (last entry)
+  Destination:     Broadcast
+  Source Address:  0xB0 (176)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18FF0237
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFF (255)
+  PDU Specific:    0x02 (2)
+  PGN:             0xFF02 (65282) Proprietary B 
+  Destination:     Broadcast
+  Source Address:  0x37 (55)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18FF2FB0
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFF (255)
+  PDU Specific:    0x2F (47)
+  PGN:             0xFF2F (65327) Proprietary B 
+  Destination:     Broadcast
+  Source Address:  0xB0 (176)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18A637B0
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xA6 (166)
+  PDU Specific:    0x37 (55)
+  PGN:             0xA600 (42496) Auxiliary Input/Output Status 3
+  Destination:     0x37
+  Source Address:  0xB0 (176)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18FF2DB0
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFF (255)
+  PDU Specific:    0x2D (45)
+  PGN:             0xFF2D (65325) Proprietary B 
+  Destination:     Broadcast
+  Source Address:  0xB0 (176)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18FEFCB0
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFE (254)
+  PDU Specific:    0xFC (252)
+  PGN:             0xFEFC (65276) Dash Display 1 
+  Destination:     Broadcast
+  Source Address:  0xB0 (176)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18F001B0
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xF0 (240)
+  PDU Specific:    0x01 (1)
+  PGN:             0xF001 (61441) Electronic Brake Controller 1	
+  Destination:     Broadcast
+  Source Address:  0xB0 (176)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x14FFFFE4
+  Priority:        5
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFF (255)
+  PDU Specific:    0xFF (255)
+  PGN:             0xFFFF (65535) Proprietary B (last entry)
+  Destination:     Broadcast
+  Source Address:  0xE4 (228)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18A737B0
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xA7 (167)
+  PDU Specific:    0x37 (55)
+  PGN:             0xA700 (42752) Auxiliary Input/Output Status 2	
+  Destination:     0x37
+  Source Address:  0xB0 (176)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18FFA4B0
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFF (255)
+  PDU Specific:    0xA4 (164)
+  PGN:             0xFFA4 (65444) Proprietary B 
+  Destination:     Broadcast
+  Source Address:  0xB0 (176)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x1CFE8CFC
+  Priority:        7
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFE (254)
+  PDU Specific:    0x8C (140)
+  PGN:             0xFE8C (65164) Auxiliary Analog Information	
+  Destination:     Broadcast
+  Source Address:  0xFC (252)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x18FF31FC
+  Priority:        6
+  Reserved Bit:    0
+  Data Page:       0
+  PDU Format:      0xFF (255)
+  PDU Specific:    0x31 (49)
+  PGN:             0xFF31 (65329) Proprietary B 
+  Destination:     Broadcast
+  Source Address:  0xFC (252)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x018FEF19
+  Priority:        0
+  Reserved Bit:    0
+  Data Page:       1
+  PDU Format:      0x8F (143)
+  PDU Specific:    0xEF (239)
+  PGN:             0x18F00 (102144) INVALID
+  Destination:     0xEF
+  Source Address:  0x19 (25)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x018FEE40
+  Priority:        0
+  Reserved Bit:    0
+  Data Page:       1
+  PDU Format:      0x8F (143)
+  PDU Specific:    0xEE (238)
+  PGN:             0x18F00 (102144) INVALID
+  Destination:     0xEE
+  Source Address:  0x40 (64)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x018FEEE0
+  Priority:        0
+  Reserved Bit:    0
+  Data Page:       1
+  PDU Format:      0x8F (143)
+  PDU Specific:    0xEE (238)
+  PGN:             0x18F00 (102144) INVALID 
+  Destination:     0xEE
+  Source Address:  0xE0 (224)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x018FEEF0
+  Priority:        0
+  Reserved Bit:    0
+  Data Page:       1
+  PDU Format:      0x8F (143)
+  PDU Specific:    0xEE (238)
+  PGN:             0x18F00 (102144) INVALID
+  Destination:     0xEE
+  Source Address:  0xF0 (240)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x018FFFF1
+  Priority:        0
+  Reserved Bit:    0
+  Data Page:       1
+  PDU Format:      0x8F (143)
+  PDU Specific:    0xFF (255)
+  PGN:             0x18F00 (102144) INVALID
+  Destination:     0xFF
+  Source Address:  0xF1 (241)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x018FDD92
+  Priority:        0
+  Reserved Bit:    0
+  Data Page:       1
+  PDU Format:      0x8F (143)
+  PDU Specific:    0xDD (221)
+  PGN:             0x18F00 (102144) INVALID
+  Destination:     0xDD
+  Source Address:  0x92 (146)
+--------------------------------------------------
+Decoded J1939 Arbitration ID: 0x018FF682
+  Priority:        0
+  Reserved Bit:    0
+  Data Page:       1
+  PDU Format:      0x8F (143)
+  PDU Specific:    0xF6 (246)
+  PGN:             0x18F00 (102144) INVALID
+  Destination:     0xF6
+  Source Address:  0x82 (130)
+--------------------------------------------------
