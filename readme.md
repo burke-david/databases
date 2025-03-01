@@ -4,6 +4,7 @@
 
 * [Online DBC Viewer/Editor](https://www.csselectronics.com/pages/dbc-editor-can-bus-database)
 * [SAE J1939 PGN Database](https://github.com/amoux/candump-database/tree/master)
+* [Online J1939 CAN-ID to PGN converter](https://www.csselectronics.com/pages/j1939-pgn-conversion-tool): Determine if a particular CAN-ID is associated with a standardized PGN.
 
 Create python venv
 ```
